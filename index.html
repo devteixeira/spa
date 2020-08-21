@@ -3,9 +3,9 @@
 <head>
     <meta charset="utf-8">
     <title>Sigle Page Aplication</title>
+    <link rel="stylesheet" href="estilo.css"/>
 	<!--
-    <link rel="stylesheet" href="css/estilo.css"/>
-    <link rel="stylesheet" href="css/fotos.css"/>
+    <link rel="stylesheet" href="fotos.css"/>
 	-->
 </head>
 
@@ -13,7 +13,7 @@
 
 <body>
     <div id="singlepage">
-        <header id="cabecalho">
+        <header class="cabecalho">
             <hgroup>
                 <h1>Vinícius Teixeira</h1>
                 <h2>Página pessoal</h2>
@@ -65,7 +65,7 @@
             <nav id="menu">
                 -->
                 
-                <h1>Menu</h1>
+                <h2>Menu</h1>
                 <ul type="square">
                     <li><a href="#inicio_tl">Início</a></li>
                     <li><a href="#sobre_tl">Sobre mim</a></li>
@@ -76,83 +76,78 @@
                 </ul>
             </nav>
         </header>
-
+<hr>
         <section id="corpo">
-            <h2 id="inicio_tl">Início</h2>
-            <p id="inicio"> Criei essa aplicação para exercitar e demonstrar minhas capacidades com desenvolvimento.</p>
-
-            <h2 id="sobre_tl">Sobre mim</h2>
-			<!--
-            <aside id="direita">
-                <figure class="foto-intro">
-                    <img id="foto-intro" src="imagens/foto-intro.jpg"/>                
-                </figure>
-            </aside>
-			-->
-            <p id="intro">Me chamo Vinícius, sou técnico de informática desde 2008, fiz estágio e trabalhei na área por seis anos aproximadamente. Em 2015 comecei a fazer faculdade, pela Estácio, no curso Análise e Desenvolvimento de Sistemas. Pela baixa remuneração, saí de área de suporte e passei a trabalhar com bancos de dados em uma equipe estatística. Também consegui uma bolsa para fazer um curso de Java no SENAI na unidade Maracanã, o que me fez ficar apaixonado por programação. Desanimado pela faculdade não estar atendendo todas as minhas espectativas, tranquei a graduação. Com isso acabei deixando de lado o desenvolvimento de meus projetos pessoais. Na empresa onde trabalho atualmente, conheci profissionais de divérsas áreas, inclusive a equipe de desenvolvimento e suporte de sistemas da instituição. Conhecer esses profissionais e sabendo que a empresa tem uma política de oportunidades internas, me animei para voltar a estudar programação e finalizar minha graduação. Infelimente ainda não tive a oportunidade de participar de um processo interno para migrar para o setor de desenvolvimento. Porém, essa possibilidade me ajudou a retomar meus estudos com desenvolvimento e reabir minha matricula na faculdade. também voltei a trabalhar nos meus projetos pessoais, começando a criar meu portfólio.
-            </p></br>
-
-            <h2 id="espec_tl">Especializações Técnicas</h2>
-            <table>
-				<tr><td>Desenvolvimento</td><td>HTML5, CSS3, JavaScript, PHP, Java</td></tr>
-				<tr><td>Editor de texto</td><td>Notepad++, Visual Studio Code</td></tr>
-				<tr><td>IDE</td><td>NetBeans, Eclipse, PhpStorm</td></tr>
-                <!--<tr><td>Framework</td><td>React, Node.js, Vue.JS, Spring, Laravel</td></tr>-->
-                <tr><td>Servidor de Aplicação</td><td>Apache, JBossWeb, Tomcat</td></tr>
-                <!--<tr><td>CMS</td><td>WordPress, Joomla</td></tr>-->
-                <tr><td>Banco de Dados</td><td>SQL, MySQL, PostreSQL</td></tr>
-                <tr><td>Controle de Versão</td><td>Git, GitHub</td></tr>
-                <tr><td>Sistemas</td><td>Linux (Fedora, Manjaro, Mint, Deepin e Ubunto), Windows (XP até 10), Mac OS</td></tr>
-                <tr><td>Servidores</td><td>Windows Server 2003/2008, CentOS, Debian</td></tr>
-                <!--
-				<tr><td>Ferramentas de escritório</td><td>MS Office 365 e 2010-2003, LibreOffice</td></tr>
-                <tr><td>Suporte</td><td>Software e Hardware</td></tr>
-                <tr><td>Rede</td><td>Instalação e configuração de modens e roteadores, suporte à infraestrutura</td></tr>
-                <tr><td>Acesso Remoto</td><td>VNC, TeamViewer, CrossLoop, LogMeIn, Ammyy Admin, Conexão de área de trabalho temora (Windows7)</td></tr>
-				-->
-            </table>
-            
-            <h2 id="cursos_tl">Cursos</h2>
-                <table>
-                    <tr><td>Curso</td><td>Instituição</td><td>Concluído em</td></tr>
-                    <tr><td>JavaScript Completo 2020</td><td>Udemy</td><td>2020</td></tr>
-                    <tr><td>Java Completo 2020</td><td>Udemy</td><td>2020</td></tr>
-                    <tr><td>HTML5 + CSS3</td><td>Curso em Vídeo</td><td>2019</td></tr>
-                    <tr><td>PHP Básico</td><td>Curso em Vídeo</td><td>2019</td></tr>
-                    <tr><td>Programação em Java</td><td>SENAI – Maracanã</td><td>2016</td></tr>
-                    <tr><td>Curso de Inglês</td><td>Pioneers Curso de Idiomas (curso fechado)</td><td>20??</td></tr>
-					<!--
-                    <tr><td>Operador de Suporte Técnico</td><td>SENAI – Maracanã</td><td>20??</td></tr>
-                    <tr><td>Gestão Estratégica de TI</td><td>Escola Virtual da Fundação Bradesco</td><td>20??</td></tr>
-					-->
-                    <tr><td>Fundamentos de Rede</td><td>Escola Virtual da Fundação Bradesco</td><td>20??</td></tr>
-                    <tr><td>Linux – Básico</td><td>Cursos 24 horas</td><td>20??</td></tr>
-                </table>
-
-            <h2 id="portfolio_tl">Portfólio</h2>
-            <p id="portf">Demonstração dos meus projetos</p>
-            <ul id="album-fotos">
-                <li id="foto01"><span>Em construção</span></li>
-                <li id="foto02"><span>Em construção</span></li>
-                <li id="foto03"><span>Em construção</span></li>
-            </ul>
-            
-            <footer id="rodape_tl">
-                <p>Copyright &copy; 2020 - Desenvolvido por Vinícius Teixeira - Versão 1.3</br>
-                <!--Telefone móvel: (21) 98251-2523 | -->
-                
-                <a href=""></a>E-mail</a> <!--Criar popup com JS--> | 
-                
-                <a href="http://www.linkedin.com/in/viniciusteixeiradossantos" target="_blank">LinkedIn</a> | 
-                
-                <a href="https://github.com/devteixeira" target="_blank">GitHub</a></br>
-
-                
+            <div>
+                <h2 class="inicio">Início</h2>
+                    <div>
+                        <p class="intro">Me chamo Vinícius, me tornei apaixonado por programação após conseguir uma bolsa para fazer um curso de programação em Java, no SENAI na unidade Maracanã. Já fui estagiário Técnico de Suporte, Analista de Suporte e por último fui Assiste de Gestão. Por onde passei conheci profissionais de divérsas áreas, inclusive a de desenvolvimento e suporte de sistemas. Em 2019 resolvi deixar a timidez de lado e resolvi enfim começar a desenvolver, trabalhar em meus projetos pessoais, começando a criar meu portfólio.
+                        </p></br>
+                    </div>
+            </div>
+<hr>
+            <div>
+                <h2 class="espec">Especializações Técnicas</h2>
+                <div class="espec_tbl">
+                    <table>
+                        <tr><td>Desenvolvimento</td><td>HTML5, CSS3, JavaScript, PHP, Java</td></tr>
+                        <tr><td>Editor de texto</td><td>Notepad++, Visual Studio Code</td></tr>
+                        <tr><td>IDE</td><td>NetBeans, Eclipse, PhpStorm</td></tr>
+                        <!--<tr><td>Framework</td><td>React, Node.js, Vue.JS, Spring, Laravel</td></tr>-->
+                        <tr><td>Servidor de Aplicação</td><td>Apache, JBossWeb, Tomcat</td></tr>
+                        <!--<tr><td>CMS</td><td>WordPress, Joomla</td></tr>-->
+                        <tr><td>Banco de Dados</td><td>SQL, MySQL, PostreSQL</td></tr>
+                        <tr><td>Controle de Versão</td><td>GitHub</td></tr>
+                        <tr><td>Sistemas</td><td>Linux (Fedora, Manjaro, Mint, Deepin e Ubunto), Windows (XP até 10), Mac OS</td></tr>
+                        <tr><td>Rede</td><td>DNS, TCP/IP, Active Directory, Suporte à infraestrutura</td></tr>
+                        <tr><td>Servidores</td><td>Windows Server 2003/2008, CentOS, Debian</td></tr>
+                        <!--
+                        <tr><td>Ferramentas de escritório</td><td>MS Office 365 e 2010-2003, LibreOffice</td></tr>
+                        <tr><td>Suporte</td><td>Software e Hardware</td></tr>
+                        <tr><td>Acesso Remoto</td><td>VNC, TeamViewer, CrossLoop, LogMeIn, Ammyy Admin, Conexão de área de trabalho temora (Windows7)</td></tr>
+                        -->
+                    </table>
+                </div>
+            </div>
+ <hr>                       
+            <div>
+                <h2 class="cursos">Cursos</h2>
+                <div class="cursos_tbl">
+                    <table>
+                        <tr><td>Curso</td><td>Instituição</td><td>Concluído em</td></tr>
+                        <tr><td>JavaScript Completo 2020</td><td>Udemy</td><td>2020</td></tr>
+                        <tr><td>Java Completo 2020</td><td>Udemy</td><td>2020</td></tr>
+                        <tr><td>HTML5 + CSS3</td><td>Curso em Vídeo</td><td>2019</td></tr>
+                        <tr><td>PHP Básico</td><td>Curso em Vídeo</td><td>2019</td></tr>
+                        <tr><td>Programação em Java</td><td>SENAI – Maracanã</td><td>2016</td></tr>
+                        <tr><td>Curso de Inglês</td><td>Pioneers Curso de Idiomas (curso fechado)</td><td>20??</td></tr>
+                        <!--
+                        <tr><td>Operador de Suporte Técnico</td><td>SENAI – Maracanã</td><td>20??</td></tr>
+                        <tr><td>Gestão Estratégica de TI</td><td>Escola Virtual da Fundação Bradesco</td><td>20??</td></tr>
+                        -->
+                        <tr><td>Fundamentos de Rede</td><td>Escola Virtual da Fundação Bradesco</td><td>20??</td></tr>
+                        <tr><td>Linux – Básico</td><td>Cursos 24 horas</td><td>20??</td></tr>
+                    </table>
+                </div>
+            </div>
+<hr>            
+            <h2 class="portf">Portfólio</h2>
+                <p class="portf_p">Demonstração dos meus projetos</p>
+                <ul class="portf_fotos">
+                    <li class="foto01"><span>Em construção</span></li>
+                    <li class="foto02"><span>Em construção</span></li>
+                    <li class="foto03"><span>Em construção</span></li>
+                </ul>
+<hr>            
+            <footer class="rodape">
+                <p>Copyright &copy; 2020 - Desenvolvido por Vinícius Teixeira - Versão 1.5</br>
+                    <!--Telefone móvel: (21) 98251-2523 | -->
+                    <a href=""></a>E-mail</a> <!--Criar popup com JS--> | 
+                    <a href="http://www.linkedin.com/in/viniciusteixeiradossantos" target="_blank">LinkedIn</a> | 
+                    <a href="https://github.com/devteixeira" target="_blank">GitHub</a></br>
                 </p>
             </footer>
-            
-        
-        </section>
+         </section>
     </div>
 </body>
 </html>
